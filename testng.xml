@@ -1,0 +1,26 @@
+
+        <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="salem test  Suite">
+<test name="firefox">
+    <parameter name="value" value="salem"></parameter>
+
+   <classes>
+       <class name="TESTS.ExampleTests">
+           <methods>
+               <include name="testConcat"></include>
+           </methods>
+       </class>
+   </classes>
+
+    </test> <!-- Test -->
+    <test name="chrome">
+        <classes>
+            <class name="TESTS.Example2Tests">
+                
+            </class>
+        </classes>
+
+    </test>
+
+
+</suite> <!-- Suite -->
